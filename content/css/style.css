@@ -918,7 +918,7 @@ font-size: 11px;
 .btn-enrollment{
   color: #EC7063;
   /*background-color: rgba(254, 197, 3, 0.9);*/
-  background-color: rgba(236, 112, 99, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
   /*border-color: rgba(255, 255, 255, 0.5);*/
   border-color:#EC7063;
   font-family: "Robot",sans-serif;
@@ -1066,4 +1066,20 @@ and (max-width : 480px) {
     margin-top: 7px;
     font-size: 20px;
 }
+}
+
+
+#intro-btn1 {
+  /*color: rgba(254, 197, 3, 1);*/
+  background-color: rgba(0, 0, 0, 0.3);
+
+  /*border-color:rgba(254, 197, 3, 1);*/
+
+
+}
+
+#intro-btn1:hover{
+  background-color: rgba(255, 255, 255, 0.4);
+  color:rgba(49, 46, 46, 0.966);
+  border-color:rgba(255, 255, 255, 0.4);
 }
